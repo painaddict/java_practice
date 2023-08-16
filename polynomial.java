@@ -1,6 +1,15 @@
 import java.lang.String;
 import java.util.Scanner;
 
+/*
+Problem Statement:
+	Design a class to perform polynomial addition where the two polynomials may
+	contain arbitrary number of terms and may have an arbitrary degree.
+*/
+
+// TODO:  Add logic to handle unequal number of terms in the two polynomials
+ 
+
 class Element {
 	public int coefficient;
 	public int power;
