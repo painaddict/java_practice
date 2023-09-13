@@ -72,7 +72,7 @@ class Polynomial {
 		System.out.print("Enter P2: ");
 		P2 = scanner.nextLine();
 
-		String[] p1_split = P1.split(" ", 0); // '0' indicates that the string needs to be split until EOD
+		String[] p1_split = P1.split(" ", 0); // '0' indicates that the string needs to be split until EOL
 		String[] p2_split = P2.split(" ", 0);
 
 		sum(p1_split, p2_split);
